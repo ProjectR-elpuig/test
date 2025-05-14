@@ -13,10 +13,11 @@ import { RecoilRoot } from 'recoil'
 if (isEnvBrowser()) {
   const root = document.getElementById('root')
 
-  root!.style.backgroundImage = 'url("https://i.imgur.com/3pzRj9n.png")'
-  root!.style.backgroundSize = 'cover'
-  root!.style.backgroundRepeat = 'no-repeat'
-  root!.style.backgroundPosition = 'center'
+  // root!.style.backgroundImage = 'url("https://i.imgur.com/3pzRj9n.png")'
+  // root!.style.backgroundSize = 'cover'
+  // root!.style.backgroundRepeat = 'no-repeat'
+  // root!.style.backgroundPosition = 'center'
+  root!.style.backgroundColor = '#000'
 }
 
 const root = document.getElementById('root') as HTMLElement
