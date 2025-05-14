@@ -6,7 +6,6 @@ import './index.css'
 import '@mantine/core/styles.css';
 
 import { isEnvBrowser } from './utils/misc'
-import { customTheme } from './theme'
 
 import { MantineProvider } from '@mantine/core'
 import { RecoilRoot } from 'recoil'
@@ -24,7 +23,7 @@ const root = document.getElementById('root') as HTMLElement
 ReactDOM.createRoot(root!).render(
   <React.StrictMode>
     <RecoilRoot>
-      <MantineProvider theme={customTheme} defaultColorScheme='dark'>
+      <MantineProvider defaultColorScheme='dark'>
         <App />
       </MantineProvider>
     </RecoilRoot>
